@@ -1,5 +1,7 @@
-The package should be considered a supplement to Dr. Michael Lustig's ESPIRiT package, available at http://www.eecs.berkeley.edu/~mlustig/Software.html. The main purpose function of the SP3 package is to extend the SPIRiT method to 3D. Here we focus on data acquired with stack of non-Cartesian 2D trajectories.
+The package is a supplement to Dr. Michael Lustig's ESPIRiT package, available at http://www.eecs.berkeley.edu/~mlustig/Software.html. The main purpose function of the SP3 package is to extend the SPIRiT method to 3D. Here we focus on data acquired with stack of non-Cartesian 2D trajectories. To use this package, the ESPIRiT package must be downloaded and set in the path.
 
 Setup
-First download and setup the ESPIRiT package from the link above, then download SP3. Copy the m-files in @NUFFT to the @NUFFT of ESPIRiT/, and copy the m-file in utils/ to the utils/ in ESPIRiT/. Copy @SPIRiT to ESPIRiT/ 
+First download and setup the ESPIRiT package from the link above, then download SP3. Copy the m-files in @NUFFT to the @NUFFT of ESPIRiT/, and copy the m-file in utils/ to the utils/ in ESPIRiT/. Copy @SPIRiT3 to ESPIRiT/. Add ESPIRiT and all subdirectories to MATLAB search path.
+
+The example code and data provide a template of how to use the code.
 
